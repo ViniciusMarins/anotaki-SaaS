@@ -68,21 +68,24 @@ O código está disponível e sinta-se à vontade para contribuir ou clonar o re
 
 ```
 anotaki-SaaS/
-├── anotaki.frontend/          # Aplicação React
+├── anotaki.frontend/     # Aplicação React
 │   ├── src/                   # Código fonte
 │   ├── public/                # Arquivos públicos
 │   ├── package.json           # Dependências do frontend
 │   └── vite.config.ts         # Configuração do Vite
 ├── anotaki.backend/           # API .NET Core
 │   ├── API/              # Projeto principal
-│   │   ├── Controllers/       # Controllers da API
+│   │   ├── Controllers/      # Controllers da API
 │   │   ├── Models/           # Modelos de dados
 │   │   ├── Services/         # Serviços de negócio
+│   │   ├── Exceptions/       # Tratamento de exceptions
 │   │   ├── Data/             # Contexto do banco
 │   │   ├── DTOs/             # Data Transfer Objects
 │   │   ├── Hubs/             # SignalR Hubs
+│   │   ├── Queues/           # Serviços de mensageria RabbitMQ
+│   │   ├── Utils/            # Classes de utilidade
 │   │   └── Migrations/       # Migrations do EF
-│   └── docker-compose.yml    # Configuração Docker
+│   └── docker-compose.yml    # Configuração Docker (necessário a criação)
 └── README.md                 # Este arquivo
 ```
 

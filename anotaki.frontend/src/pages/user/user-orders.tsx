@@ -1,4 +1,3 @@
-import { ArrowLeft } from "lucide-react";
 import { PrimaryText } from "@/components/design/primary-text";
 import { Button } from "@/components/ui/button";
 import { OrderStatusChip } from "@/components/order-status-chip";
