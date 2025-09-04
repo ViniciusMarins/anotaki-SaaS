@@ -73,8 +73,8 @@ anotaki-SaaS/
 │   ├── public/                # Arquivos públicos
 │   ├── package.json           # Dependências do frontend
 │   └── vite.config.ts         # Configuração do Vite
-├── anotaki.backend/           # API .NET Core
-│   ├── API/              # Projeto principal
+├── anotaki.backend/      # API .NET Core
+│   ├── API/                # Projeto principal
 │   │   ├── Controllers/      # Controllers da API
 │   │   ├── Models/           # Modelos de dados
 │   │   ├── Services/         # Serviços de negócio
