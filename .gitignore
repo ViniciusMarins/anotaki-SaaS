@@ -1,0 +1,66 @@
+# ===== Global ignores =====
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor configs
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+*.user
+*.userosscache
+
+# ASP.NET user secrets
+**/secrets.json
+**/secrets/
+
+# IIS Express
+.vs/
+*.vspscc
+*.vssscc
+*.scc
+
+# Rider
+.idea/
+
+# ===== Frontend ignores =====
+anotaki.frontend/node_modules/
+anotaki.frontend/dist/
+anotaki.frontend/dist-ssr/
+anotaki.frontend/src/vite-env.d.ts
+anotaki.frontend/*.local
+anotaki.frontend/.env
+anotaki.frontend/.env.*
+
+# ===== Backend ignores =====
+anotaki.backend/API/**/bin/
+anotaki.backend/API/**/obj/
+anotaki.backend/API/**/*.user
+anotaki.backend/API/**/*.suo
+anotaki.backend/API/*.userosscache
+anotaki.backend/API/*.sln.docstates
+anotaki.backend/API/.env
+anotaki.backend/API/.env.*
+anotaki.backend/docker-compose.yml
+
+
+# Ignore
+anotaki.backend/API/appsettings.Development.json
+anotaki.backend/API/appsettings.json
+
+# Publish output
+anotaki.backend/API/publish/
+anotaki.backend/API/*.publish.xml
